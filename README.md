@@ -15,17 +15,22 @@ This is a full-stack application with a .NET 8 Web API backend and a React front
    git clone https://github.com/EmanueleParlascino-Personal/PatientManagementApp.git
 
 2. **Build and run Backend:**
+```bash
     cd PatientManagementApp
     dotnet restore
     dotnet build
     dotnet ef migrations add InitialCreate
     dotnet ef database update
     dotnet run
+```
 
 2. **Build and run Frontend:**
+```bash
     cd patient-management-ui
     npm install
     npm start
+```
+
 
 
 ## Future Improvements
