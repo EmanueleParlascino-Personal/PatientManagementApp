@@ -19,7 +19,6 @@ This is a full-stack application with a .NET 8 Web API backend and a React front
     cd PatientManagementApp
     dotnet restore
     dotnet build
-    dotnet ef migrations add InitialCreate
     dotnet ef database update
     dotnet run
 ```
