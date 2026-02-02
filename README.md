@@ -5,7 +5,7 @@ This is a full-stack application with a .NET 8 Web API backend and a React front
 
 ## Structure
 
-/PatientManagementApi: ASP.NET Core Web API following a simplified Clean Architecture.
+/PatientManagementApp: ASP.NET Core Web API following a simplified Clean Architecture.
 
 /patient-management-ui: React SPA focused on a responsive UI.
 
@@ -15,7 +15,7 @@ This is a full-stack application with a .NET 8 Web API backend and a React front
    git clone https://github.com/EmanueleParlascino-Personal/PatientManagementApp.git
 
 2. **Build and run Backend:**
-    cd PatientManagementApi
+    cd PatientManagementApp
     dotnet restore
     dotnet build
     dotnet ef migrations add InitialCreate
