@@ -15,7 +15,7 @@ const App = () => {
   const [isAppointmentModalOpen, setIsAppointmentModalOpen] = useState(false);
   const [patients, setPatients] = useState([]); 
 
-  const API_BASE_URL = 'https://localhost:7126/api'; 
+  const API_BASE_URL = 'http://localhost:5130/api'; 
 
   useEffect(() => {
     fetchPatients();
