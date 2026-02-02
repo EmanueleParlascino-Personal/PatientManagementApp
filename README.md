@@ -12,7 +12,7 @@ This is a full-stack application with a .NET 8 Web API backend and a React front
 
 ### Installation & Setup
 1. **Clone the repository:**
-   git clone [https://github.com/your-username/project-repo.git](https://github.com/your-username/project-repo.git)
+   git clone https://github.com/EmanueleParlascino-Personal/PatientManagementApp.git
 
 2. **Build and run Backend:**
     cd PatientManagementApi
